@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyeeedb=self.webpackChunkyeeedb||[]).push([[829],{6363:e=>{e.exports=JSON.parse('{"permalink":"/yeeeDB/blog/tags/\ub300\ubc15","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
