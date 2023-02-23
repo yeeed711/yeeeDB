@@ -1,32 +1,23 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
-const lightCodeTheme = require('prism-react-renderer/themes/github')
-const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const lightCodeTheme = require('prism-react-renderer/themes/nightOwlLight')
+const darkCodeTheme = require('prism-react-renderer/themes/oceanicNext')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'yeeeDB 저장소입니다🫠',
   tagline: '이것 저것 잡학 정보들을 기록합니다.',
-  favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
-  url: 'https://yeeed711.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/yeeeDB/',
-
-  // GitHub pages deployment config.
-  deploymentBranch: 'gh-pages',
-  // If you aren't using GitHub pages, you don't need these.
+  url: 'https://yeeed711.github.io',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
   organizationName: 'yeeed711', // Usually your GitHub org/user name.
   projectName: 'yeeeDB', // Usually your repo name.
-  onBrokenLinks: 'throw',
   trailingSlash: false,
-  onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'ko',
-    // locales: ['ko'],
+    locales: ['ko'],
   },
 
   presets: [
@@ -55,8 +46,8 @@ const config = {
       navbar: {
         title: 'yeeeDB',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: '블로그 로고',
+          src: 'img/yeeed.png',
         },
         items: [
           {
@@ -65,7 +56,7 @@ const config = {
             label: 'Front-End',
             position: 'left',
           },
-          { to: '/blog', label: '블로그', position: 'left' },
+          { to: '/blog', label: 'Article', position: 'left' },
           {
             href: 'https://github.com/yeeed711',
             label: 'GitHub',
@@ -82,6 +73,10 @@ const config = {
               {
                 label: 'Web',
                 to: '/docs/web/intro',
+              },
+              {
+                label: 'JavaScript',
+                to: '/docs/JavaScript/intro',
               },
             ],
           },
