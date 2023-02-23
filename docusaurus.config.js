@@ -17,10 +17,12 @@ const config = {
   baseUrl: '/yeeeDB/',
 
   // GitHub pages deployment config.
+  deploymentBranch: 'gh-pages',
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'yeeed711', // Usually your GitHub org/user name.
   projectName: 'yeeeDB', // Usually your repo name.
   onBrokenLinks: 'throw',
+  trailingSlash: false,
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'ko',
